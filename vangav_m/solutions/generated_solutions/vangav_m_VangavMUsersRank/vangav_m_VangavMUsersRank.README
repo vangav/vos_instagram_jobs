@@ -1,0 +1,69 @@
+/**
+ * "First, solve the problem. Then, write the code. -John Johnson"
+ * "Or use Vangav M"
+ * www.vangav.com
+ * */
+
+/**
+ * no license, I know you already got more than enough to worry about
+ * keep going, never give up
+ * */
+
+/**
+ * Solution: VangavMUsersRank
+ * Solution UUID: 5e9973c1-972e-40ca-b89f-f89e5cac315d
+ * REFER to example/VangavMUsersRankExample.java for a functional example of how to use this solution
+ * Usage:
+ * 1- link vangav_m_VangavMUsersRank.jar to your project
+ *    in eclipse:
+ *    a- copy vangav_m_VangavMUsersRank.jar to your project's lib directory
+ *    b- right click project -> proerties -> Java Build Path
+ *    c- libraries tab -> Add JARS...
+ * 2- import vangav_m.vangavmusersrank.*;
+ * 3- set inputs --> VangavMUsersRank.setInputName(double value);
+ * 4- repeat (3) for as many inputs needed for a processing step
+ * 5- process --> VangavMUsersRank.process();
+ * 6- get outputs --> double output = VangavMUsersRank.getOutputName();
+ *      returns output's value or Double.NaN otherwise
+ * */
+
+
+/**
+ * API:-
+
+ * Static instance getter (recommended unless technically infeasible):
+ * public static VangavMUsersRank instance ();
+
+ * Constructor (for cases like using the same solution in different threads):
+ * public VangavMUsersRank ();
+
+ * Input Setters (multi-range input setters followed by single-range input setters):
+ * -- single-range input setters
+ * public void setUserRegisteredSinceDays (double value);
+ * public void setUserFollowCountLastWeek (double value);
+ * public void setUserUnfollowCountLastWeek (double value);
+ * public void setUserPostsCountLastWeek (double value);
+ * public void setUserLikesCountLastWeek (double value);
+ * public void setUserCommentsCountLastWeek (double value);
+ * public void setUserFollowCountTotal (double value);
+ * public void setUserPostsCountTotal (double value);
+ * public void setUserLikesCountTotal (double value);
+ * public void setUserCommentsCountTotal (double value);
+
+
+ * Process inputs into outputs:
+ * public static void process();
+
+ * Output Getters: (multi-range output getters followed by single-range output getters)
+ * -- single-range output getters
+ * public double getPostRank ();
+
+ * */
+
+
+/**
+ * You really want to make sure that you have fun, at the end of the day.
+ *           If it's not fun, what's the point. -- Ayelet Zurer
+ *                        The best is yet to come.
+ *                                 VANGAV
+ * */

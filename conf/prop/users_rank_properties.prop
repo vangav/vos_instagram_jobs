@@ -1,0 +1,138 @@
+
+# "First, solve the problem. Then, write the code. -John Johnson"
+# "Or use Vangav M"
+# www.vangav.com
+
+# MIT License
+#
+# Copyright (c) 2016 Vangav
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Community
+# Facebook Group: Vangav Open Source - Backend
+#   fb.com/groups/575834775932682/
+# Facebook Page: Vangav
+#   fb.com/vangav.f
+# 
+# Third party communities for Vangav Backend
+#   - play framework
+#   - cassandra
+#   - datastax
+#   
+# Tag your question online (e.g.: stack overflow, etc ...) with
+#   #vangav_backend
+#   to easier find questions/answers online
+ 
+# @author mustapha
+# fb.com/mustapha.abdallah
+
+# Users rank properties
+# used to represent actual values vs vangav m solution's values in order to
+#   normalize inputs/outputs
+
+
+user_follow_count_last_week_min=0
+
+user_follow_count_last_week_max=1000
+
+user_follow_count_last_week_min_vangav_m=0
+
+user_follow_count_last_week_max_vangav_m=1000
+
+
+user_unfollow_count_last_week_min=0
+
+user_unfollow_count_last_week_max=100
+
+user_unfollow_count_last_week_min_vangav_m=0
+
+user_unfollow_count_last_week_max_vangav_m=1000
+
+
+user_posts_count_last_week_min=0
+
+user_posts_count_last_week_max=100
+
+user_posts_count_last_week_min_vangav_m=0
+
+user_posts_count_last_week_max_vangav_m=100
+
+
+user_likes_count_last_week_min=0
+
+user_likes_count_last_week_max=3000
+
+user_likes_count_last_week_min_vangav_m=0
+
+user_likes_count_last_week_max_vangav_m=1000
+
+
+user_comments_count_last_week_min=0
+
+user_comments_count_last_week_max=300
+
+user_comments_count_last_week_min_vangav_m=0
+
+user_comments_count_last_week_max_vangav_m=1000
+
+
+user_follow_count_total_min=0
+
+user_follow_count_total_max=100000
+
+user_follow_count_total_min_vangav_m=0
+
+user_follow_count_total_max_vangav_m=1000
+
+
+user_posts_count_total_min=0
+
+user_posts_count_total_max=10000
+
+user_posts_count_total_min_vangav_m=0
+
+user_posts_count_total_max_vangav_m=100
+
+
+user_likes_count_total_min=0
+
+user_likes_count_total_max=300000
+
+user_likes_count_total_min_vangav_m=0
+
+user_likes_count_total_max_vangav_m=1000
+
+
+user_comments_count_total_min=0
+
+user_comments_count_total_max=30000
+
+user_comments_count_total_min_vangav_m=0
+
+user_comments_count_total_max_vangav_m=1000
+
+
+user_rank_min=0
+
+user_rank_max=100000
+
+user_rank_min_vangav_m=0
+
+user_rank_max_vangav_m=1000

@@ -1,0 +1,128 @@
+{
+  "solution_type": "JAVA_JAR",
+  "name": "VangavMPostsRank",
+  "inputs_multi_range": [],
+  "inputs": [
+    {
+      "name": "PostHour",
+      "min": 0,
+      "max": 23,
+      "mid": 11.5
+    },
+    {
+      "name": "PostLikesCount",
+      "min": 0,
+      "max": 1000,
+      "mid": 10
+    },
+    {
+      "name": "PostCommentsCount",
+      "min": 0,
+      "max": 1000,
+      "mid": 10
+    },
+    {
+      "name": "UserRegisteredSinceDays",
+      "min": 0,
+      "max": 60,
+      "mid": 30
+    },
+    {
+      "name": "UserFollowCountLastWeek",
+      "min": 0,
+      "max": 1000,
+      "mid": 10
+    },
+    {
+      "name": "UserUnfollowCountLastWeek",
+      "min": 0,
+      "max": 1000,
+      "mid": 10
+    },
+    {
+      "name": "UserPostsCountLastWeek",
+      "min": 0,
+      "max": 100,
+      "mid": 10
+    },
+    {
+      "name": "UserLikesCountLastWeek",
+      "min": 0,
+      "max": 1000,
+      "mid": 10
+    },
+    {
+      "name": "UserCommentsCountLastWeek",
+      "min": 0,
+      "max": 1000,
+      "mid": 10
+    }
+  ],
+  "finite_inputs": [],
+  "outputs_multi_range": [],
+  "outputs": [
+    {
+      "name": "PostRank",
+      "min": 0,
+      "max": 1000,
+      "mid": 500
+    }
+  ],
+  "relations": [
+    {
+      "input_name": "PostHour",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 1.0
+    },
+    {
+      "input_name": "PostLikesCount",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 1.5
+    },
+    {
+      "input_name": "PostCommentsCount",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 2.0
+    },
+    {
+      "input_name": "UserRegisteredSinceDays",
+      "output_name": "PostRank",
+      "relation": "INVERSELY_PROPORTIONAL",
+      "weight": 0.5
+    },
+    {
+      "input_name": "UserFollowCountLastWeek",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 1.0
+    },
+    {
+      "input_name": "UserUnfollowCountLastWeek",
+      "output_name": "PostRank",
+      "relation": "INVERSELY_PROPORTIONAL",
+      "weight": 1.0
+    },
+    {
+      "input_name": "UserPostsCountLastWeek",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 1.0
+    },
+    {
+      "input_name": "UserLikesCountLastWeek",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 1.0
+    },
+    {
+      "input_name": "UserCommentsCountLastWeek",
+      "output_name": "PostRank",
+      "relation": "DIRECTLY_PROPORTIONAL",
+      "weight": 1.0
+    }
+  ],
+  "relative_relations": []
+}

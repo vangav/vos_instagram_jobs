@@ -1,0 +1,116 @@
+{
+  "solution_type" : "JAVA_JAR",
+  "name" : "VangavMUsersRank",
+  "inputs_multi_range" : [ ],
+  "inputs" : [ {
+    "name" : "UserRegisteredSinceDays",
+    "min" : 0.0,
+    "max" : 60.0,
+    "mid" : 30.0
+  }, {
+    "name" : "UserFollowCountLastWeek",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserUnfollowCountLastWeek",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserPostsCountLastWeek",
+    "min" : 0.0,
+    "max" : 100.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserLikesCountLastWeek",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserCommentsCountLastWeek",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserFollowCountTotal",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserPostsCountTotal",
+    "min" : 0.0,
+    "max" : 100.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserLikesCountTotal",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  }, {
+    "name" : "UserCommentsCountTotal",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 10.0
+  } ],
+  "finite_inputs" : [ ],
+  "outputs_multi_range" : [ ],
+  "outputs" : [ {
+    "name" : "PostRank",
+    "min" : 0.0,
+    "max" : 1000.0,
+    "mid" : 500.0
+  } ],
+  "relations" : [ {
+    "input_name" : "UserRegisteredSinceDays",
+    "output_name" : "PostRank",
+    "relation" : "INVERSELY_PROPORTIONAL",
+    "weight" : 0.5
+  }, {
+    "input_name" : "UserFollowCountLastWeek",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 2.0
+  }, {
+    "input_name" : "UserUnfollowCountLastWeek",
+    "output_name" : "PostRank",
+    "relation" : "INVERSELY_PROPORTIONAL",
+    "weight" : 2.0
+  }, {
+    "input_name" : "UserPostsCountLastWeek",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 2.0
+  }, {
+    "input_name" : "UserLikesCountLastWeek",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 2.0
+  }, {
+    "input_name" : "UserCommentsCountLastWeek",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 2.0
+  }, {
+    "input_name" : "UserFollowCountTotal",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 1.0
+  }, {
+    "input_name" : "UserPostsCountTotal",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 1.0
+  }, {
+    "input_name" : "UserLikesCountTotal",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 1.0
+  }, {
+    "input_name" : "UserCommentsCountTotal",
+    "output_name" : "PostRank",
+    "relation" : "DIRECTLY_PROPORTIONAL",
+    "weight" : 1.0
+  } ],
+  "relative_relations" : [ ]
+}

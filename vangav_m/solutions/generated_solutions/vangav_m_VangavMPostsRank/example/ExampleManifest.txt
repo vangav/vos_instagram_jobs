@@ -1,0 +1,2 @@
+Main-Class: VangavMPostsRankExample
+Class-Path: ../vangav_m_VangavMPostsRank.jar
